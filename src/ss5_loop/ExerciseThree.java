@@ -11,14 +11,11 @@ public class ExerciseThree {
         System.out.print("Nhập n: ");
         int n = sc.nextInt();
         for (int i = 2; i <= n; i += 2) {
-           if(i % 4 == 0 ){
-               System.out.printf("-%-4d",i);
-           }else{
-               System.out.printf("%-4d",i);
-           }
-
+            if (i % 4 == 0) {
+                System.out.printf("-%-4d", i);
+            } else {
+                System.out.printf("%-4d", i);
+            }
         }
-
-
     }
 }

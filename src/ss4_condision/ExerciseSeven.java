@@ -6,6 +6,12 @@ package ss4_condision;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/**
+ * Bài 7: Tính lương nhân viên theo thâm niên công tác
+ * final: hàm số,
+ * final : quy tắc đặt tên biến final viết hoa và gạch dưới vdu: BASIC_SALARY
+ */
+
 public class ExerciseSeven {
     public static void main(String[] args) {
 
@@ -15,7 +21,9 @@ public class ExerciseSeven {
         double TNCT = sc.nextDouble();
 
         double coefficient = 0;
-        double basisSalary = 650000;
+
+
+        final int BASIC_SALARY = 650000;
 
 
         if (TNCT < 12) {
@@ -28,7 +36,7 @@ public class ExerciseSeven {
             coefficient = 4.5;
         }
 
-        double salary = coefficient * basisSalary;
+        double salary = coefficient * BASIC_SALARY;
 
         // Định dạng số với dấu chấm làm phân cách nghìn và dấu phẩy sau phần thập phân
         DecimalFormat formatter = new DecimalFormat("#,##0.0");

@@ -2,7 +2,10 @@ package ss5_loop;
 
 import java.util.Scanner;
 
-// Bài 6:  In dãy số 2, -4, 6, 8, -10, 12, 14, 16, -18, ….., n
+/**
+ * Bài 6:  In dãy số 2, -4, 6, 8, -10, 12, 14, 16, -18, ….., n
+ */
+
 
 public class ExerciseSix {
     public static void main(String[] args) {
@@ -23,8 +26,6 @@ public class ExerciseSix {
                 System.out.printf("%-4d", i);
                 count++;
             }
-
         }
-
     }
 }

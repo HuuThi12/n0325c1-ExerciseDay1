@@ -16,7 +16,6 @@ public class ExerciseFour {
             } else {
                 System.out.printf("%-4d", i);
             }
-
         }
 
         // Cách 2
@@ -24,10 +23,14 @@ public class ExerciseFour {
 //        int count = 0;
 //        count ++;
 //
-//        if(count % 3 == 0){
-//            System.out.println(count);
+//        for (int i = 2; i <= n; i += 2) {
+//        count ++
+//            if (count == distance) {
+//                System.out.printf("-%-4d", i);
+//                count = 0;
+//            } else {
+//                System.out.printf("%-4d", i);
+//            }
 //        }
-
-
     }
 }

@@ -19,10 +19,6 @@ public class ExerciseSix {
         System.out.print("Nhập giá trị của c: ");
         double c = sc.nextDouble();
 
-        double delta = 0;
-        double x = 0;
-        double x1 = 0;
-        double x2 = 0;
 
         if (a == 0) {
             // bx + c = 0
@@ -38,15 +34,16 @@ public class ExerciseSix {
             }
         } else {
             // ax2 + bx + c = 0
-            delta = Math.pow(b, 2) - 4 * a * c;
+            double delta = Math.pow(b, 2) - 4 * a * c;
             if (delta < 0) {
                 System.out.println("Phương trình vô nghiệm");
             } else if (delta == 0) {
-                x = -b / (2 * a);
+                double x = -b / (2 * a);
                 System.out.println("Phương trình có nghiệm duy nhất : " + x);
             } else {
-                x1 = (-b - Math.sqrt(delta)) / 2 * a;
-                x2 = (-b + Math.sqrt(delta)) / 2 * a;
+                double sqrtDelta = Math.sqrt(delta);
+                double x1 = (-b - sqrtDelta) / (2 * a);
+                double x2 = (-b + sqrtDelta) / (2 * a);
                 System.out.println("Phương trình có 2 nghiệm : x1 = " + x1 + "\t x2 = " + x2);
             }
         }
