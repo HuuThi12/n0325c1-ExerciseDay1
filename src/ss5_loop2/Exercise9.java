@@ -31,9 +31,11 @@ public class Exercise9 {
         int palindromeCount = 0;
         int palindromeSum = 0;
 
+        // số chính phương
         int perfectSquareCount = 0;
         int perfectSquareSum = 0;
 
+        // số nguyên tố
         int primeCount = 0;
         int primeSum = 0;
 
