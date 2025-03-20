@@ -1,4 +1,4 @@
-package ss8_oop.khoang_cach_management;
+package ss8_oop.khoang_cach;
 
 public class DistanceCalculator {
     public static void main(String[] args) {

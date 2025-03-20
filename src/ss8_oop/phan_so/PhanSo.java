@@ -1,4 +1,4 @@
-package ss8_oop.phanso_management;
+package ss8_oop.phan_so;
 
 import java.util.Scanner;
 
