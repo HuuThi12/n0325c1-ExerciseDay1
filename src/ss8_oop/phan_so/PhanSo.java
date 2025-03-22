@@ -89,8 +89,5 @@ public class PhanSo {
         return  tuSo * mauSo > 0 || tuSo == 0 ;
     }
 
-
-
-
 }
 
